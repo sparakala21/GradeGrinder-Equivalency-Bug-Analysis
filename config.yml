@@ -1,0 +1,6 @@
+lexicon: ["Pet", "Owned", "Fed", "max", "claire"]
+implication_file: "implications.txt"
+output_folder: "output"
+valid_answers:
+  - "∃t (∀y ∀z ((Pet(y) ∧ Owned(max, y, z) ∧ Fed(max, y, z)) → z < t) ∧ ¬∃w (w < t ∧ ∃x (Pet(x) ∧ Owned(claire, x, w) ∧ Fed(claire, x, w))))"
+  - "∃t ∀x ∀y [ (Pet(x) ∧ Owned(max,x,2:00) ∧ Pet(y) ∧ Owned(claire,y,2:00)) → ( ∃u (Fed(max,x,u) ∧ u < t) ∧ ¬∃v (Fed(claire,y,v) ∧ v < t) ) ]"
