@@ -4,7 +4,7 @@
 ## Problem Description
 
 The goal of Exercise 11.21 from the *Language, Proof and Logic* (LPL) textbook is to translate English sentences into First-Order Logic (FOL) using a fixed vocabulary. Sentence 9 presents a particularly challenging case:
-![image](table.png)
+![image](table.PNG)
 > “Max fed all of his pets before Claire fed any of her pets.”  
 > (Assume that “Max’s pets” are those he owned at 2:00, and the same for Claire.)
 
