@@ -5,6 +5,7 @@
 
 The goal of Exercise 11.21 from the *Language, Proof and Logic* (LPL) textbook is to translate English sentences into First-Order Logic (FOL) using a fixed vocabulary. Sentence 9 presents a particularly challenging case:
 ![image](table.PNG)
+Above are the Predicates and variables allowed for the exercise.
 > “Max fed all of his pets before Claire fed any of her pets.”  
 > (Assume that “Max’s pets” are those he owned at 2:00, and the same for Claire.)
 
@@ -19,7 +20,8 @@ Using data from submitted answers and their logical implications, I generated a 
 This graph provides two key benefits:
 1. **Hierarchical filtering:** Strong statements (those with many children) can help eliminate large branches of incorrect logic.
 2. **Insight into student reasoning:** Identifying common patterns in incorrect answers reveals misunderstandings or ambiguities in predicate definitions.
-
+![image](formula_implications_graph.PNG)
+This is what the graph looks like
 ## Predicate Filtering
 
 The correct translation must use all of the following predicates and constants:
@@ -33,7 +35,7 @@ The correct translation must use all of the following predicates and constants:
 Eliminating submissions that omit any of these yields:
 - **30% reduction** in the number of candidate statements.
 - **80% reduction** in implication edges.
-
+![image](formula_implications_graph_filtered.PNG)
 This initial filter simplifies further analysis considerably.
 
 ## Analysis of Representative Statements
