@@ -35,7 +35,7 @@ The correct translation must use all of the following predicates and constants:
 Eliminating submissions that omit any of these yields:
 - **30% reduction** in the number of candidate statements.
 - **80% reduction** in implication edges.
-![image](formula_implications_graph_filtered.PNG)
+![image](formula_implications_graph_filtered.png)
 This initial filter simplifies further analysis considerably.
 
 ## Analysis of Representative Statements
