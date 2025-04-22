@@ -20,7 +20,7 @@ Using data from submitted answers and their logical implications, I generated a 
 This graph provides two key benefits:
 1. **Hierarchical filtering:** Strong statements (those with many children) can help eliminate large branches of incorrect logic.
 2. **Insight into student reasoning:** Identifying common patterns in incorrect answers reveals misunderstandings or ambiguities in predicate definitions.
-![image](formula_implications_graph.PNG)
+![image](formula_implications_graph.png)
 This is what the graph looks like
 ## Predicate Filtering
 
